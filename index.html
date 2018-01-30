@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task xx eats yy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="task">
+    <h1>Who eats what?</h1>
+    <form class="eat-form" id="eater1">
+      <div class="field-wrapper">
+        <input 
+            type="text" 
+            class="person-name form-field"  
+            name="person-name" 
+            placeholder="Who is going to eat?"
+          >
+        <span class="field-error">Required</span>
+      </div>
+      <div class="field-wrapper">
+        <input 
+          type="text" 
+          class="that form-field" 
+          name="that"
+          placeholder="what is going be eaten"
+        >
+        <span class="field-error">Required</span>
+      </div>
+      <button class="submit">Eat</button>
+    </form>
+  </div>
+  <script src="build/bundle.js"></script>
+</body>
+</html>
